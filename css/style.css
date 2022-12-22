@@ -1,0 +1,92 @@
+html{
+    background-color: #BCD2DE;
+}
+/*header, footer en body*/
+header{
+    background-color: #4196C2;
+    height: 80px;
+    min-width: 100%;
+    color: white;
+    padding: 5px;
+    top: 0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #4196C2;
+    height: 80px;
+    width: 100%;
+    color: white;
+    padding: 5px;
+}
+.content{
+    max-width: 95%;
+    margin: auto;
+}
+body{
+    background-color: white;
+    margin: auto;
+}
+
+/*menu*/
+ul a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #4196C2;
+}
+li:hover{
+    background-color: #7CBFE1;
+    border-style: none;
+}
+
+/*index inhoud*/
+p{
+    width: 60%;
+}
+img{
+    float: right;
+    padding: 5px;
+   
+}
+
+/*mijncv inhoud*/
+table{
+    padding: 10px;
+    width: 80%;
+}
+.tabletitle{
+    font-weight: bold;
+    padding-top: 15px;
+}
+.datecells{
+    width: 15%;
+}
+
+/*contact inhoud*/
+h3{
+    padding: 5px;
+    text-align: center;
+}
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: auto;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 3px; 
+    box-shadow: inset 2px 2px 2px #BCD2DE;
+    padding: 5px;
+}
+textarea{height: 100px;
+    padding: 5px 4px;
+}
+button:active{
+    background-color: #4196C2;
+}
